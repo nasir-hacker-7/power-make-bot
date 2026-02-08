@@ -18,7 +18,7 @@ import sys
 API_URL = os.getenv("API_URL", "http://51.77.216.195/crapi/dgroup/viewstats")
 API_TOKEN = os.getenv("API_TOKEN", "RVBTSDRSQlV3anOAWGVWSkd4dF-JZU-EYVdxd0dxZVyLgm9rfWB4")
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8130090084:AAE1zfsAVJ0M1FnE3sCQdMQEprBNXlm24o8")
-TELEGRAM_CHANNEL_ID = os.getenv("TELEGRAM_CHANNEL_ID", "1003876856971")
+TELEGRAM_CHANNEL_ID = os.getenv("TELEGRAM_CHANNEL_ID", "-1003876856971")
 CHECK_INTERVAL = int(os.getenv("CHECK_INTERVAL", "15"))  # seconds
 
 # Track processed messages to avoid duplicates
